@@ -1,0 +1,129 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36,58,107);
+    margin-bottom: 50px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    /* border: 1px solid; */
+    /* justify-content:space-between; */
+    padding: 10px;
+
+    
+    
+}
+
+header img{
+    width: 100px;
+
+}
+
+.top-right img{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.column-1{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+    background-color:rgb(163,202,234) ;
+    justify-content: space-around;
+    border-radius: 10px;
+    /* flex-shrink: 2; */
+}
+
+.column-1 div{
+    margin-left: 30px;
+}
+
+.column-1 div button{
+    margin-top: 120px;
+    width: 200px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+main{
+    display: flex;
+    
+}
+
+.column-2{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    /* flex-shrink: 1; */
+    /* border: 2px solid; */
+    background-color: rgb(242,248,253);
+    /* margin: 0 auto; */
+    object-fit: cover;
+}
+
+.column-2 img{
+    height: 300px;
+    /* width: 800px; */
+    object-fit: cover;
+
+}
+
+.column-2 div button{
+    background-color:rgb(83,182,103) ;
+    color: wheat;
+    /* box-shadow: green; */
+    border: 1px solid white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:rgb(36,58,107) ;
+
+}
+
+.bottom p{
+    /* margin-right: 1100px; */
+    
+}
+
+.bottom img{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    /* margin-bottom: 10px; */
+    margin-top: 30px;
+    /* margin-right: 50px; */
+    padding-right: 25px;
+    
+}
+
+footer{
+    background-color:rgb(36,58,107) ;
+
+}
+
+.facebook{
+    display: flex;
+
+}
+
+.articles{
+    border: 3px solid rgb(237,137,77);
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    
+}
